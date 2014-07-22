@@ -1,0 +1,34 @@
+{
+  "name": "footballbot-workshop",
+  "version": "0.0.0",
+  "description": "Workshopper that walks you through building a https://github.com/achingbrain/footballbot",
+  "main": "runner.js",
+  "bin": {
+    "footballbot-workshop": "runner.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tableflip/footballbot-workshop.git"
+  },
+  "keywords": [
+    "robot",
+    "football",
+    "sumobot",
+    "johnny-five",
+    "workshopper",
+    "adventure"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tableflip/footballbot-workshop/issues"
+  },
+  "homepage": "https://github.com/tableflip/footballbot-workshop",
+  "dependencies": {
+    "adventure": "^2.6.0",
+    "msee": "^0.1.1"
+  }
+}
