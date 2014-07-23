@@ -29,6 +29,9 @@
   "homepage": "https://github.com/tableflip/footballbot-workshop",
   "dependencies": {
     "adventure": "^2.6.0",
-    "msee": "^0.1.1"
+    "chai": "^1.9.1",
+    "msee": "^0.1.1",
+    "proxyquire": "^1.0.1",
+    "sinon": "^1.10.3"
   }
 }
