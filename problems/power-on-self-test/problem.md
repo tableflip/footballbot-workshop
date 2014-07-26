@@ -12,8 +12,26 @@ Turn on an LED attached to pin 13
 
 Installing the footballbot sketch allows you to talk to your board from NodeJS.
 
-* Download the IDE at: http://arduino.cc/en/main/software
-* Copy the sketch from: https://raw.githubusercontent.com/achingbrain/footballbot/master/assets/footballbot.ino
+* Download and install the `CP210x USB to UART Bridge VCP` drivers:
+
+> http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
+
+* Download the IDE
+
+> http://arduino.cc/en/main/software
+
+* Start the IDE and select
+
+> Tools > Board > Arduino NG ATmega8
+
+* Plug in the board with a USB cable and select
+
+> Tools > Serial Port > /dev/tty.SLAB_USBtoUART
+
+* Copy the sketch from
+
+> https://raw.githubusercontent.com/achingbrain/footballbot/master/assets/footballbot.ino
+
 * Paste the sketch into a new document and hit upload
 
 ## Boilerplate
@@ -22,7 +40,7 @@ You may copy and paste the following into your solution file to make getting sta
 
 ```js
 var FootballBot = require('footballbot')
-var bot = new FootballBot('/dev/tty.linvor-DevB')
+var bot = new FootballBot('/dev/tty.SLAB_USBtoUART')
 
 bot.on('ready', function () {
   // Your solution here!
@@ -41,4 +59,5 @@ is required other than the Arduino itself and a USB cable.
 
 ## Components
 
+- Dagu Arduino Mini Driver Board - http://www.dagurobot.com/goods.php?id=142
 - LED - http://node-ardx.org/electronics-primer#led
