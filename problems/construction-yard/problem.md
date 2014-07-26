@@ -24,7 +24,8 @@ bot.on('ready', function () {
 })
 ```
 
-* You can `start`, `stop`, `reverse` and set the `speed` (from 0 to 255)
+* You can `start`, `stop`, and set the `speed` (from 0 to 255)
+* You can change the direction of the motor using `forward` and `reverse`
 * Motors are event emitters and emit `start` and `stop` events
 
 ## Hints
