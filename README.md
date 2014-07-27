@@ -1,4 +1,4 @@
-# footballbot-workshop
+# footballbot-workshop [![Dependency Status](https://david-dm.org/tableflip/footballbot-workshop.svg)](https://david-dm.org/tableflip/footballbot-workshop)
 
 A step by step guide to building your own [footballbot](https://github.com/achingbrain/footballbot)
 
