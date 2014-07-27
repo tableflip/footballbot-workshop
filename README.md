@@ -24,7 +24,7 @@ The workshopper assumes you're building a robot with the following parts:
 
 ## Thanks
 
-- @substack - and the [nodeschool.io][http://nodeschool.io/] team. This workshopper is based on [adventure](https://github.com/substack/adventure)
+- @substack - and the [nodeschool.io](http://nodeschool.io/) team. This workshopper is based on [adventure](https://github.com/substack/adventure)
 - @rwaldron @voodootikigod @rockbot and the rest of the [nodebots team](http://nodebots.io/core.html)
 
 Brought to you by [@NodeBotsUK](https://twitter.com/NodeBotsUK)
