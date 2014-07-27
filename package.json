@@ -1,7 +1,7 @@
 {
   "name": "footballbot-workshop",
   "version": "1.0.0",
-  "description": "Workshopper that walks you through building a https://github.com/achingbrain/footballbot",
+  "description": "A step by step guide to building your own footballbot",
   "main": "runner.js",
   "bin": {
     "footballbot-workshop": "runner.js"
