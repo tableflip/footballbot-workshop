@@ -1,6 +1,6 @@
 {
   "name": "footballbot-workshop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A step by step guide to building your own footballbot",
   "main": "runner.js",
   "bin": {
