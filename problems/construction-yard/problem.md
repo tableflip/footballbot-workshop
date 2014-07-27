@@ -10,6 +10,10 @@
 
 The motors should be connected to the pins labelled **ML** and **MR**. They can be found at the bottom of the board.
 
+A circuit diagram is available here:
+
+> http://blog.dawnrobotics.co.uk/wp-content/uploads/2013/11/circuit_diagram.png
+
 ## Spinning the motors
 
 Create new motor instances in your code and attach motors to your footballbot using the `attach` method:
@@ -24,7 +28,7 @@ bot.on('ready', function () {
 })
 ```
 
-* You can `start`, `stop`, and set the `speed` (from 0 to 255)
+* There are `start`, `stop` methods and one to set the `speed` (from 0 to 255)
 * You can change the direction of the motor using `forward` and `reverse`
 * Motors are event emitters and emit `start` and `stop` events
 

@@ -2,19 +2,24 @@
 
 Turn on an LED attached to pin 13
 
-* Install the footballbot sketch using the Arduino IDE
+* Install the drivers necessary to talk to your board
+* Upload the footballbot sketch using the Arduino IDE
 * Create a directory for your answers and `cd` into it
 * Get footballbot from npm: `npm install footballbot`
 * Add a file for your solution (e.g. 01-power-on-self-test.js)
 * When the board is ready, turn the **LED** at pin 13 on `this.digitalWrite(13, this.HIGH)`
 
-## Install the footballbot sketch
+## Install the mini driver drivers
 
-Installing the footballbot sketch allows you to talk to your board from NodeJS.
+In order to connect to your board, you will need to install a driver.
 
 * Download and install the `CP210x USB to UART Bridge VCP` drivers:
 
 > http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
+
+## Upload the footballbot sketch
+
+Installing the footballbot sketch allows you to talk to your board from NodeJS.
 
 * Download the IDE
 
@@ -55,7 +60,8 @@ is required other than the Arduino itself and a USB cable.
 ## Hints
 
 * Your kit includes an Arudino-compatible board.  Attach this to your computer using a USB cable.
-* You will need to install the footballbot sketch from the Arduino IDE before Johnny-Five can talk to it.
+* This Arduino board requires a driver to be installed for it to work with your operating system.
+* You will need to install the footballbot sketch from the Arduino IDE before NodeJS can talk to it.
 
 ## Components
 

@@ -19,9 +19,17 @@ Turn bluetooth on and attempt to pair with the device. The pairing code is **123
 
 ## Connecting to the device
 
-To connect over bluetooth to your device you need to change the port passed to the footballbot constructor:
+To connect over bluetooth to your device you need to change the port passed to the footballbot constructor.
 
-> /dev/tty.HC-06-DevB
+The name of your device will vary from computer to computer.  To find it, examine tty devices under `/dev`:
+
+> cd /dev
+> ls -l tty.*
+> crw-rw-rw- ... tty.Bluetooth-Incoming-Port
+> crw-rw-rw- ... tty.Bluetooth-Modem
+> crw-rw-rw- ... tty.HC-06-DevB
+
+In the example above, `tty.HC-06-DevB` is the Arduino's bluetooth card, so we would use `/dev/tty.HC-06-DevB` as the device name.
 
 ## Components
 
